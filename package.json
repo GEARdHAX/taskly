@@ -1,7 +1,6 @@
 {
  "name": "taskly",
- "homepage": "https://github.com/GEARdHAX/taskly/",
- "private": true,
+ "homepage": "https://GEARdHAX.github.io/taskly/",
  "version": "0.0.0",
  "type": "module",
  "scripts": {
