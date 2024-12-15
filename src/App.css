@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background-color: black;
+ }
+ 
+ .task {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+ h1:first-child {
+  font-family: "Seaweed Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: 32px; */
+ }
+ .brand {
+  color: #526e48;
+  border-radius: 100%;
+  padding: 9px 15px 9px 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+ }
+ .brand:active {
+  transform: scale(0.8);
+ }
+ 
+ h3:first-child {
+  font-family: "Lobster", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+ }
+ input:first-child {
+  outline: none;
+  padding: 12px;
+  width: 40rem;
+  border-radius: 6px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+  -webkit-box-shadow: 0px 9px 30px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 9px 30px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 9px 30px -11px rgba(0, 0, 0, 0.75);
+ }
+ button {
+  padding: 12px;
+  border-radius: 6px;
+  color: #39532e;
+  background-color: #cbffcf;
+ }
+ @media (min-width: 441px) and (max-width: 768px) {
+  input:first-child {
+   width: 25rem;
+  }
+ }
+ @media (max-width: 441px) {
+  input:first-child {
+   width: 90%;
+   margin: auto;
+  }
+  button {
+   margin: 20px;
+  }
+ }
+ .footer {
+  background-color: #62825d;
+ }
+ .fa-arrow-up {
+  font-size: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 13px;
+  background-color: #cbffcf;
+  color: #39532e;
+ }
+ 
